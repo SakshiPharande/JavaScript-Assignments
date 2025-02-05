@@ -1,0 +1,38 @@
+/**
+ How will you create a new copy of the object below while updating the value of address.details[0] to “5“? 
+    { 
+    name:”Harry Potter”, 
+    age: 12, 
+    address: { 
+    details: [“4”, “Privet Drive”], 
+    area:”Little Whinging”, 
+    city: “Surrey”, 
+    state: “England” 
+    } 
+} 
+*/
+
+
+const person = { 
+    name: "Harry Potter", 
+    age: 12, 
+    address: { 
+        details: ["4", "Privet Drive"], 
+        area: "Little Whinging", 
+        city: "Surrey", 
+        state: "England" 
+    } 
+};
+
+const updatedPerson = {
+    ...person,  // Shallow copy of person
+    address: {
+        ...person.address,  // Shallow copy of address
+        details: [
+            "5",  // Updating the first element
+            ...person.address.details.slice(1) // Keeping the rest unchanged
+        ]
+    }
+};
+
+console.log(updatedPerson);
