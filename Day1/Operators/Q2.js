@@ -1,3 +1,8 @@
+/**
+ What do you think would happen if you pass an index beyond the range of the string? 
+ Or if you pass a negative index? Try it out.
+*/
+
 let arr = [1,2,3,4,5]
 
 console.log(arr[8])

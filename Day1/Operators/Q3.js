@@ -1,3 +1,8 @@
+/**
+Do you think JSON.stringify would work for arrays as well? 
+What about nested objects? 
+What happens if we pass numbers, strings, undefined, null to JSON.stringify? 
+*/
 let arr = [1, 2, 3, 4, 5];
 let jsonArr = JSON.stringify(arr);
 

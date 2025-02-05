@@ -1,4 +1,18 @@
 /**
+What makes a method mutating or non mutating in Javascript? 
+Find out whether each of the following methods are mutating or non-mutating. 
+How can you verify this?:
+○ push 
+○ pop 
+○ filter 
+○ find 
+○ sort 
+○ map
+*/
+
+
+/**
+Ans:
 Mutating vs. Non-Mutating Methods in JavaScript
 A mutating method modifies the original array, while a non-mutating method returns a new array without altering the original.
 */

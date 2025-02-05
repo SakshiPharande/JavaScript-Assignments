@@ -1,3 +1,7 @@
+/**
+ * What is the difference between ++i and i++? 
+*/
+
 let i = 5;
 let resultpost = ++i;  // i is incremented first, then assigned
 

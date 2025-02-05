@@ -1,5 +1,13 @@
-// Arrays 
+/**
+Use let and const to create arrays and objects. 
+Try modifying, deleting properties within the array or object. 
+What do you expect to happen in both cases? What actually happensin both cases. 
+What is the difference between an object declared as a let or a const variable? 
+*/
 
+
+
+// Arrays 
 let arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
 

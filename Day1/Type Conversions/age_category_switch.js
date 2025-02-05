@@ -1,3 +1,7 @@
+/**
+Do the same using switch case. 
+*/
+
 let age = 25;
 
 switch (true) {

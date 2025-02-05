@@ -11,8 +11,6 @@
 
 4) Can you use return instead of break in a loop
 -->  No, return exits the function, while break only stops the loop.
-
-
 **/
 
 // for

@@ -1,3 +1,5 @@
+//Can you use return instead of break in loops? 
+
 function createArray() {
     let arraySize = 25;
     let numbersArray = [];

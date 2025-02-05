@@ -1,3 +1,5 @@
+//  Accomplish the same using a while loop. 
+
 let arraySize = 25;
 let numbersArray = [];
 let i = 1;

@@ -1,3 +1,13 @@
+/**
+ Take the below array of objects. Accomplish the following tasks: 
+○ Write a function filterByName that accepts a string as a parameter and 
+    returns an array with only those objects where the first_name field includes that string.
+○ Use Array.map to return an array of all the email fields. 
+○ Use Array.sort to return the array sorted in descending order by date_of_birth. 
+○ Write a function getById that accepts a number as a parameter and 
+    returns the object where the id is equal to that number. 
+*/
+
 const arr = 
 [
     { 
